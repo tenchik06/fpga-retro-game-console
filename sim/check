@@ -1,0 +1,30 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-965-g55e06db6)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000000001298590 .scope module, "check_verilog" "check_verilog" 2 1;
+ .timescale 0 0;
+    .scope S_0000000001298590;
+T_0 ;
+    %vpi_call 2 3 "$display", "==================================" {0 0 0};
+    %vpi_call 2 4 "$display", "Retro Console - Verilog Check" {0 0 0};
+    %vpi_call 2 5 "$display", "==================================" {0 0 0};
+    %vpi_call 2 6 "$display", "\342\234\223 VGA Controller: Compiled" {0 0 0};
+    %vpi_call 2 7 "$display", "\342\234\223 Text Renderer:  Compiled" {0 0 0};
+    %vpi_call 2 8 "$display", "\342\234\223 Sprite Engine:  Compiled" {0 0 0};
+    %vpi_call 2 9 "$display", "\342\234\223 Vector Renderer: Compiled" {0 0 0};
+    %vpi_call 2 10 "$display", "==================================" {0 0 0};
+    %vpi_call 2 11 "$display", "All modules compiled successfully!" {0 0 0};
+    %vpi_call 2 12 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "sim/check_verilog.v";
