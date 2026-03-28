@@ -28,5 +28,3 @@ cd sim
 iverilog -o simulation tb_demo.v ../rtl/*.v
 vvp simulation
 
-## Author
-Strenina T.
