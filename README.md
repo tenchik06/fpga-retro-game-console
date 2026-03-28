@@ -1,35 +1,32 @@
 # Retro Game Console Project
 
-Демонстрационная ретро игровая консоль на Verilog с выводом графики на VGA.
+A demonstration retro game console implemented in Verilog with VGA graphics output.
 
-## 🎮 Функциональность
+## 🎮 Features
 
-- **VGA контроллер** 640x480
-- **Вывод текста** "Hello Retro!" 
-- **Пиксельные спрайты** 16x16
-- **Векторная графика** (3D куб)
-- **Вращение графики**
-- **Интерактивное управление**
+- **VGA controller** 640x480
+- **Text output** "Hello Retro!"
+- **Pixel sprites** 16x16
+- **Vector graphics** (3D cube)
+- **Graphics rotation**
+- **Interactive control**
 
-## 📁 Структура проекта
-├── rtl/ # Исходные коды на Verilog
+## 📁 Project Structure
+├── rtl/ # Verilog source files
+├── sim/ # Test environments and simulation
+├── fonts/ # Pixel fonts
+├── sprites/ # Sprite data
+├── python/ # Helper scripts
+├── screenshots/ # Screenshots of the project
+└── README.md # This file
 
-├── sim/ # Тестовые окружения и симуляция
-
-├── fonts/ # Пиксельные шрифты
-
-├── sprites/ # Данные спрайтов
-
-├── python/ # Вспомогательные скрипты
-
-├── screenshots/ # Скриншоты работы
-
-└── README.md # Этот файл
-
-## 🚀 Быстрый старт
+## 🚀 Quick Start
 
 ```bash
-# Запуск симуляции
+# Run simulation
 cd sim
 iverilog -o simulation tb_demo.v ../rtl/*.v
 vvp simulation
+
+## Author
+Strenina T.
